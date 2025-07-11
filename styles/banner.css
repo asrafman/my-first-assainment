@@ -14,6 +14,7 @@
 nav{
 display: flex;
 justify-content: space-around;
+align-items: center;
 }
 h3{
     color: #4E47FF;
@@ -21,7 +22,7 @@ h3{
     width: 99px;
     height: 51px;
     font-weight: bold;
-    padding: 51.5px;
+    
 }
 
 /* button style */
@@ -29,16 +30,41 @@ h3{
 .btn{
  color: #ffffff;
  background-color: #4E47FF;
- padding: 36px 12px;
+ padding: 12px 36px;
  border-radius: 10px;
   width: 132px;
   height: 48px;
 text-align: auto;
 font-weight: bold;
-font-size: 20px;
-margin-top: 51.5px;
+font-size: 14px;
+border: none;
+}
+.bnt-2{
+  width: 174px;
+  height: 48px;
+  margin-top: 0;
+}
+/* sheard style */
+.buttons{
+  padding: 12px 36px;
+  text-align: auto;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+   color: #ffffff;
+ background-color: #4E47FF;
 
 }
+
+/* body style */
+body{
+  background-color: #F6F8FF;
+}
+
+
+
+
+
 /* header style */
 header{
   background-image:url(/Assets/Hero-bg.png);
@@ -48,4 +74,33 @@ header{
   padding: 200px;
   font-size: 65px;
   font-weight: bold;
+}
+
+/* main style */
+.main-part{
+  display: flex;
+  justify-content: space-between;
+  margin: 116px 162px 0 141px;
+  align-items: center;
+  gap: 220px;
+}
+.fool{
+  font-size: 42PX;
+}
+
+.letter{
+  font-size: 24Px;
+  color: #252432;
+  
+}
+.photo{
+  border-radius: 40px;
+}
+.joined-main{
+  max-width: 1140px;
+  background-color: #D8D8FF;
+  margin: 0 auto;
+  border-radius: 10px;
+  height: 306px;
+  padding: 50px 80px;
 }
