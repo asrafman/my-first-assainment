@@ -67,7 +67,7 @@ border: none;
 }
 
 /* body style */
-main, header{
+.body-c{
   background-color: #F6F8FF;
 }
 
@@ -214,6 +214,7 @@ footer{
   height: 221px;
   text-align: center;
   margin: 0 auto;
+  background-color: white;
 
 }
 
