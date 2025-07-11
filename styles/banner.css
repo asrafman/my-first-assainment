@@ -55,9 +55,19 @@ border: none;
  background-color: #4E47FF;
 
 }
+.buttons2{
+    padding: 12px 36px;
+  text-align: auto;
+   border: none;
+  border-radius: 10px;
+   color: #ffffff;
+ background-color: #4E47FF;
+ font-size: medium;
+ margin-bottom: 20px;
+}
 
 /* body style */
-body{
+main, header{
   background-color: #F6F8FF;
 }
 
@@ -79,7 +89,7 @@ header{
 /* main style */
 .main-part{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 116px 162px 0 141px;
   align-items: center;
   gap: 220px;
@@ -109,6 +119,7 @@ header{
   display: flex;
   justify-content: space-around;
   text-align: center;
+
  
   
 }
@@ -128,4 +139,79 @@ header{
 .item-description{
   color: #8987A1;
   font-size: 20px;
+}
+.uix{
+   max-width: 1140px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 10px;
+  height: 696.77px;
+  padding: 71px 150px;
+  margin-top: 130px;
+  text-align: center;
+}
+.piv{
+  border: none;
+  border-radius: 48px;
+  height: 364.77px;
+  width: 840px;
+}
+.gun{
+  font-size: 50px;
+  font-weight: 700;
+  height: 20px;
+}
+.goos{
+  color: #808080;
+  margin-bottom: 20px;
+}
+.from-culome{
+  
+}
+.lower-part{
+  display: flex;
+  justify-content: space-around;
+  max-width: 1140px;
+  gap: 92.33px;
+  height: 632px;
+  margin: 0 auto;
+  padding: 71px;
+  align-items: center;
+
+  
+}
+.desing{
+  width: 497px;
+  height: 70px;
+}
+.from-details{
+  font-size: 97px;
+  font-weight: bold;
+  width: 528px;
+  height: 230px;
+ 
+}
+.submit{
+  height: 62px;
+  width: 567px;
+  padding: 19px 101px;
+  color: #ffffff;
+  background-color: #4E47FF;
+  border: none;
+  border-radius: 10px;
+  
+}
+.normal{
+  width: 497px;
+  height: 135px;
+}
+.desing, .normal{
+  padding: 20px 32px;
+}
+/* footer styles */
+.logo{
+  font-size: 100px;
+  color: #4E47FF;
+
+    text-align: center;
 }
