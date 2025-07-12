@@ -212,9 +212,11 @@ header{
 footer{
   width: 531px;
   height: 221px;
-  text-align: center;
+  
   margin: 0 auto;
   background-color: white;
+  align-items: center;
+  
 
 }
 
@@ -225,11 +227,11 @@ margin: 0;
     text-align: center;
 }
 .tagline{
-  text-align: center;
   color: #808080;
   height:48px ;
   width: 531px;
   margin: 0;
+  text-align: center;
 }
 .ul-menu{
   display: flex;
@@ -237,6 +239,7 @@ margin: 0;
   color: #808080;
   width: 401px;
   height: 24px;
+  text-align: center;
   margin: 0;
 
 }
@@ -250,3 +253,4 @@ ul li a{
 .cool{
   color: #8987A1;
 }
+
